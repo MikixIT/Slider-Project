@@ -42,3 +42,10 @@ leftArrow.addEventListener("click", () => {
 
 //Bottom buttons
 
+for (let i = 0; i < lengthImg; i++) {
+    let div = document.createElement("div");
+    div.className = "button";
+    bottom.appendChild(div);
+}
+
+!CONTINUA DA QUI = "ORA"!
