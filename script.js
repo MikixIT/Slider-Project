@@ -48,4 +48,3 @@ for (let i = 0; i < lengthImg; i++) {
     bottom.appendChild(div);
 }
 
-!CONTINUA DA QUI = "ORA"!
