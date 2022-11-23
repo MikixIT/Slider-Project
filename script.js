@@ -6,7 +6,7 @@ const slider = document.querySelector('.slider');
 let images = document.querySelectorAll('.images');
 const bottom = document.querySelector('.bottom');
 
-let lengthImg = images.length
+let lengthImg = images.length;
 let sliderCounter = 1;
 
 //Slider Function
@@ -37,14 +37,18 @@ rightArrow.addEventListener("click", () => {
 
 leftArrow.addEventListener("click", () => {
     sliderCounter > 1 ? prevSlide() : lastSlide()
-})
+});
 
 
 //Bottom buttons
 
+//For / creating buttons on bottom div
 for (let i = 0; i < lengthImg; i++) {
     let div = document.createElement("div");
     div.className = "button";
     bottom.appendChild(div);
 }
+
+
+const buttons = document.querySelectorAll('.button');
 
