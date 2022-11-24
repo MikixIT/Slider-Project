@@ -50,6 +50,8 @@ for (let i = 0; i < lengthImg; i++) {
 }
 
 
-const buttons = document.querySelectorAll('.button');
+let buttons = document.querySelectorAll('.button');
+ 
+buttons.addEventListener("click", () => {console.log("ciao")})
 
 

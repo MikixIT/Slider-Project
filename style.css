@@ -58,3 +58,7 @@ body{
     z-index: 1;
     cursor: pointer;
 }
+
+.button:hover{
+    background: white;
+}
