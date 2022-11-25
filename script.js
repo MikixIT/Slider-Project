@@ -71,7 +71,6 @@ const lastSlide = () => {
 // Arrow Clicks
 
 rightArrow.addEventListener("click", () => {
-    changeBgColor();
     sliderCounter < lengthImg ? nextSlide() : startSlide(); 
     changeBgColor();
     changeColorButton();
